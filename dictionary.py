@@ -18,11 +18,9 @@ GAME_WORDS = ['ability', 'about', 'above', 'absolute', 'accessible',
 MESSAGES = OrderedDict([
     ('NEXT', {
         'msg': "What's your next guess?",
-        # 'play': True,
     }),
     ('ALREADY_GUESSED', {
         'msg': "You can't guess a letter that you've guessed before. Try again.",
-        # 'play': 
     }),
     ('INVALID', {
         'msg': "Invalid guess. Try again."
@@ -35,16 +33,18 @@ MESSAGES = OrderedDict([
     }),
     ('GAME_OVER', {
         'msg': "Oh no! You couldn't guess the word in time.\nGame over!"
+    }),
+    ('GAME_WON', {
+        'msg': "You've guessed the word correctly.\nCongratulations!"
     })
 ])
 
 IMG_PATH = {
-    0:  'images/hangman-0.png',
-    1:  'images/hangman-1.png',
-    2:  'images/hangman-2.png',
-    3:  'images/hangman-3.png',
-    4:  'images/hangman-4.png',
-    5:  'images/hangman-5.png',
-    # 6:  'images/hangman-6.png',
-    6: 'images/game_over.png'
+    0: 'images/hangman-0.png',
+    1: 'images/hangman-1.png',
+    2: 'images/hangman-2.png',
+    3: 'images/hangman-3.png',
+    4: 'images/hangman-4.png',
+    5: 'images/hangman-5.png',
+    6: 'images/game-over.png'
 }
